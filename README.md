@@ -1,10 +1,12 @@
 # 🚀 QA Engineering Portfolio: AS Inspekt
 
-Welcome to my **QA Engineering Portfolio**, built around the `AS Inspekt` repository. 
+Welcome to my QA Engineering Portfolio, built around the AS Inspekt repository.
 
-Originally, developed this for a real-world, cross-platform application (Windows, macOS, iOS) using **Flutter, Supabase, and Cloudflare Workers**. However, as my career focus shifted towards **Quality Assurance and Software Testing**, I realized that my own codebase is the perfect playground to demonstrate how I approach software quality.
+I originally developed AS Inspekt as a real-world, cross-platform enterprise application using Flutter, Supabase, and Cloudflare Workers. But while building and maintaining it, something interesting happened—I realized that writing the code was only half the battle. 
 
-This portfolio is not just theory. It contains **some of the most critical bugs I found, diagnosed, and fixed**, backed up by actual Git commit histories and code proofs. It demonstrates my transition from "just making it work" to "engineering for resilience, scalability, and quality."
+During the development process, I saw firsthand how seemingly tiny oversights—a forgotten UI constraint, a hardcoded file path, or an untested edge case in a dropdown—could completely break the user experience or corrupt data. I realized that a product's true value isn't just in its features, but in its reliability. "Stupid" mistakes in production can be incredibly expensive, and preventing them requires a completely different mindset than just building features. That realization is what sparked my transition from Software Engineering into Quality Assurance.
+
+I decided to use my own codebase as the ultimate playground to demonstrate this mindset shift. This portfolio is not just theory. It contains real, critical bugs I found, diagnosed, and fixed in a production environment. By documenting these 18 case studies, backed by actual Git commit histories and code proofs, I want to show my transition from a developer who just wanted to "make it work" into a QA Engineer who understands how to break it, secure it, and guarantee its quality.
 
 ---
 
