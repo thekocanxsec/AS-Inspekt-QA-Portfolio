@@ -22,6 +22,14 @@ This portfolio is not just theory. It contains **some of the most critical bugs 
 *   **[Case Study 08: OS-Level Script Encoding](./Case_Studies/08_PowerShell_Encoding_Failure/README.md)** — Debugging an auto-updater failure caused by Unix line endings executing in a Windows PowerShell environment.
 *   **[Case Study 09: Draft Autosave Resilience](./Case_Studies/09_Draft_Autosave_Resilience/README.md)** — Preventing catastrophic data loss during long data-entry sessions by implementing resilient background saving.
 *   **[Case Study 10: CI Build Idempotency](./Case_Studies/10_CI_Build_Idempotency/README.md)** — Hardening the GitHub Actions pipeline against cached runner corruption and ephemeral file bleed.
+*   **[Case Study 11: UI Table Scrolling Overflow](./Case_Studies/11_UI_Table_Scrolling/README.md)** — Fixing an unconstrained UI viewport that caused scrolling elements to overflow and become inaccessible.
+*   **[Case Study 12: PDF Text Wrapping Engine](./Case_Studies/12_PDF_Text_Wrapping_Engine/README.md)** — Developing a custom PDF wrapping algorithm to prevent text bleeding out of document boundaries.
+*   **[Case Study 13: PDF Template Orientation Bounds](./Case_Studies/13_PDF_Template_Orientation/README.md)** — Resolving layout scaling issues by dynamically fetching template metadata rather than assuming static page dimensions.
+*   **[Case Study 14: UI Dropdown Overflow Failures](./Case_Studies/14_UI_Dropdown_Overflow/README.md)** — Preventing UI widget blowout errors when rendering dynamically loaded long-string dropdown menus.
+*   **[Case Study 15: Removing Heavy Dependencies](./Case_Studies/15_Removing_Heavy_Dependencies/README.md)** — Refactoring an external .NET C# dependency into native OS scripts to massively improve CI/CD stability and reduce build bloat.
+*   **[Case Study 16: PDF Multiline Bounding Failures](./Case_Studies/16_PDF_Multiline_Overflow/README.md)** — Hardening PDF rendering engines against word-splitting overflow when dynamically concatenating large address strings.
+*   **[Case Study 17: UI State & Grammar Injection](./Case_Studies/17_UI_State_Injection/README.md)** — Correcting static hardcoded strings leaking into generative artifacts, proving dynamic state injection failures.
+*   **[Case Study 18: Array Reordering State Logic](./Case_Studies/18_Array_Reordering_State/README.md)** — Debugging list-index out-of-bounds exceptions and state desynchronization when users manually reorder complex nested arrays.
 
 ### 2. 📋 QA Strategy & Documentation
 *   **[TEST_PLAN.md](./TEST_PLAN.md)** — My strategic approach to testing a massive PDF-generating client with offline capabilities.
